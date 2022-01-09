@@ -1,0 +1,377 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.body{
+    width:100%;  
+}
+.backimg{   
+    width:100%;
+    height: 120%;
+}
+
+
+/*ECLIPSE*/
+.image-overlay{
+    position: absolute;
+    top:9.7vw;
+    left:-2%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family:ButlerBold;
+    font-weight:normal;
+    
+}
+.ecli, .pse{
+    font-size:20vw;
+}  
+.pse{
+    position: absolute;
+    top:17vw; 
+}
+.stairs{
+    width:80vw;
+}
+/*Stairs*/
+.image--overlay{
+    position: absolute;
+    top:33vw;
+    left:10%;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    font-size:3vw;
+    font-family: ButlerBold;
+}
+.details{
+    font-size: 1.2vw;
+    font-family: ButlerRegular;
+}
+/*ABOUTEVENTS*/
+.image-overlay1{
+    width:27%;
+    position: absolute;
+    top:65vw;
+    left:9%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.logo{
+    width:90%;
+}
+/*LOGO*/
+.image-overlay2{
+    width:27%;
+    position: absolute;
+    top:98vw;
+    left:69%;
+}
+.EventDetails{
+    font-size: 4vw;
+    font-family: ButlerBold;
+    margin:0;
+}
+/*EVENTDETAILS*/
+.image-overlay3{
+    position: absolute;
+    top:120vw;
+    left:18%;
+    color:white;
+    
+    
+}
+/*IMAGE1*/
+.image-overlay4{
+    position: absolute;
+    top:130vw;
+    left:42%;  
+}
+.frame1, .frame4{
+    width:16vw;
+}
+.framepc, .frameboy{
+    width:14vw;
+}
+.image-overlay5{
+    position: absolute;
+    top:131vw;
+    left:43%; 
+}
+/*TIME1*/
+.image-overlay6{
+    position: absolute;
+    top:155vw;
+    left:45%; 
+}
+.image-overlay7{
+    position: absolute;
+    top:157vw;
+    left:45.3%; 
+    
+}
+.image-overlay7, .image-overlay28, .image-overlay30{
+    color:white;
+    text-align: center;
+}
+.frame2{
+    width:8vw;
+}
+.time{
+    font-size:1.6vw;
+    font-family: ButlerRegular;
+}
+.date{
+font-size:1vw;
+font-family: ButlerRegular;
+}
+/*IMAGE2*/
+.image-overlay8{
+    position: absolute;
+    top:141vw;
+    left:10%;    
+}
+.frame3{
+    width:33vw;
+}
+.image-overlay9{
+    position: absolute;
+    top:142.5vw;
+    left:11.7%; 
+}
+.codepic{
+    width:29.2vw;
+}
+/*IMAGE3*/
+.image-overlay10{
+    position: absolute;
+    top: 172vw;
+    left:37%;  
+}
+
+.frameboy{
+    position: absolute;
+    top: 173vw;
+    left:38%;
+ 
+}
+/*IMAGE4*/
+.image-overlay12{
+    position: absolute;
+    top: 187vw;
+    left:55%; 
+}
+.frame5, .frame7{
+    width:16vw;
+}
+.image-overlay13{
+    position: absolute;
+    top: 188vw;
+    left:56%; 
+}
+.codepic1, .framepc1{
+    width:14vw;
+}
+/*IMAGE5*/
+.image-overlay14{
+    position: absolute;
+    top: 199vw;
+    left:67%; 
+}
+.frame6, .frame9{
+    width:25vw;
+}
+.image-overlay15{
+    position: absolute;
+    top: 200.5vw;
+    left:68.5%; 
+}
+.frameboy1, .codepic2{
+    width:21.5vw;
+}
+/*IMAGE6*/
+.image-overlay16{
+    position: absolute;
+    top: 223vw;
+    left:56%; 
+}
+
+.image-overlay17{
+    position: absolute;
+    top: 224vw;
+    left:57%; 
+}
+
+/*IMAGE7*/
+.image-overlay18{
+    position: absolute;
+    top:238vw;
+    left:34%;   
+}
+.frame8, .frame10{
+    width:17vw;
+}
+.framepc2, .frameboy2{
+    width:14vw;
+}
+.image-overlay19{
+    position: absolute;
+    top:239vw;
+    left:35.5%;   
+}
+/*IMAGE8*/
+.image-overlay20{
+    position: absolute;
+    top:252vw;
+    left:10%;  
+}
+
+
+.image-overlay21{
+    position: absolute;
+    top:253.5vw;
+    left:11.7%;   
+}
+/*IMAGE9*/
+.image-overlay22{
+    position: absolute;
+    top:275vw;
+    left:34%;   
+}
+
+.image-overlay23{
+    position: absolute;
+    top:276vw;
+    left:35.5%; 
+}
+/*EVENT1*/
+.image-overlay24{
+    position: absolute;
+    top:149vw;
+    left:60%; 
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.event1{
+    font-size:2.5vw;
+    font-family: ButlerBold;
+}
+.event1details{
+    width:18vw;
+    font-size: 1.2vw;
+    font-family: ButlerRegular;
+}
+.button1{
+    position: absolute;
+    top:14vw;
+    left:30%;
+    width:40%;
+    font-size: 1vw;
+    background-color: #00C894;
+    border-radius: 1.2vw;
+}
+/*EVENT2*/
+.image-overlay25{
+    position: absolute;
+    top:206vw;
+    left:32%; 
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.event2{
+    font-size:2.5vw;
+    font-family: ButlerBold;
+}
+.event2details{
+    width:18vw;
+    font-size: 1.2vw;
+    font-family: ButlerRegular;
+}
+.button2{
+    position: absolute;
+    top:14vw;
+    left:30%; 
+    width:40%;
+    font-size: 1vw;
+    background-color: #00C894;
+    border-radius: 1.5vw;
+}
+/*EVENT3*/
+.image-overlay26{
+    position: absolute;
+    top:255vw;
+    left:53%; 
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.event3{
+    font-size:2.5vw;
+    font-family: ButlerBold;
+}
+.event3details{
+    width:18vw;
+    font-size: 1.2vw;
+    font-family: ButlerRegular;
+}
+.button3{
+    position: absolute;
+    top:17vw;
+    left:30%; 
+    width:40%;
+    font-size: 1vw;
+    background-color: #00C894;
+    border-radius: 1.5vw;
+}
+/*Time2*/
+.image-overlay27{
+    position: absolute;
+    top:209vw;
+    left:57%; 
+}
+.image-overlay28{
+    position: absolute;
+    top:211vw;
+    left:57.3%; 
+  
+}
+/*Time3*/
+.image-overlay29{
+    position: absolute;
+    top:261vw;
+    left:37%; 
+}
+.image-overlay30{
+    position: absolute;
+    top:263vw;
+    left:37.3%; 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
