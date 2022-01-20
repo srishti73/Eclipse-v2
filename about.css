@@ -139,6 +139,9 @@ font-family: ButlerRegular;
     top:141vw;
     left:10%;    
 }
+.image-overlay8:hover{
+    transform: scale(1.1);
+}
 .frame3{
     width:33vw;
 }
@@ -406,7 +409,10 @@ footer{
   }
 
 
-
+.hover-effect:hover{
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+}
 
 
 
