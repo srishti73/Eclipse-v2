@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/4f6fb2fa3c231278167b36e966718cbb?family=Uni+Sans+Heavy);
 *{
     margin:0px;
     padding:0px;
@@ -359,6 +360,50 @@ font-family: ButlerRegular;
     left:37.3%; 
    
 }
+hr.socket{
+    width: 100%;
+    border-top: .2rem solid #666b71a8;
+    margin-top: 3rem;
+  }
+footer{
+    overflow-x: hidden;
+    background-color:#0000009d ;
+    color: white;
+  }
+  footer img{
+    height: 3rem;
+    margin: 1.5rem 0;
+  }
+  footer a{
+    color: white;
+  }
+  footer a .disc{
+    color: white;
+  }
+  footer svg.svg-inline--fa{
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+  }
+  footer .svg-inline--fa:hover{
+    color: #03a9f4 !important;
+  }
+  
+  .btn-secondary {
+    font-family: 'Uni Sans Heavy';
+    border-radius: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    background-color: #2C2F33;
+    color: white;
+    transition: 0.25s;
+  }
+  .btn-secondary:hover,
+  .btn-secondary:focus {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+    border-color: #03a9f4;
+    background-color:#03a9f4 ;
+    color: white;
+  }
 
 
 
