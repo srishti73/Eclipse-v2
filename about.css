@@ -374,10 +374,10 @@ footer
     margin: 1.5rem 0;
   }
   footer a{
-    color: black;
+    color: white;
   }
   footer a .disc{
-    color: black;
+    color: white;
   }
   footer svg.svg-inline--fa{
     font-size: 1.6rem;
@@ -386,9 +386,6 @@ footer
   footer .svg-inline--fa:hover{
     color: #03a9f4 !important;
   }
-
-
-
 .hover-effect:hover{
     /* transform: scale(1.1); */
     transform: translateY(-10px);
