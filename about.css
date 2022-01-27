@@ -369,14 +369,10 @@ font-family: ButlerRegular;
     left:37.3%; 
    
 }
-hr.socket{
-    width: 100%;
-    border-top: .2rem solid #666b71a8;
-    margin-top: 3rem;
-  }
-footer{
+footer
+{
     overflow-x: hidden;
-    background-color:#0000009d ;
+    background-color:black;
     color: white;
   }
   footer img{
@@ -396,25 +392,6 @@ footer{
   footer .svg-inline--fa:hover{
     color: #03a9f4 !important;
   }
-  
-  .btn-secondary {
-    font-family: 'Uni Sans Heavy';
-    border-radius: 0;
-    font-size: inherit;
-    text-transform: uppercase;
-    background-color: #2C2F33;
-    color: white;
-    transition: 0.25s;
-  }
-  .btn-secondary:hover,
-  .btn-secondary:focus {
-    box-shadow: inset 6.5em 0 0 0 var(--hover);
-    border-color: #03a9f4;
-    background-color:#03a9f4 ;
-    color: white;
-  }
-
-
 .hover-effect:hover{
     /* transform: scale(1.1); */
     transform: translateY(-10px);

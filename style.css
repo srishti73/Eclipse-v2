@@ -3,8 +3,8 @@
 
   footer{
     position: relative;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     width: fit-content;
     padding: 1rem 0 2rem;
     margin-top: 1rem;
@@ -15,7 +15,7 @@
     margin: 1.5rem 0;
   }
   footer a{
-    color: #2C2F33;
+    color: white;
   }
   footer a .disc{
     color: white;
