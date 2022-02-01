@@ -58,7 +58,7 @@
 }
 .details{
     font-size: 1.2vw;
-    font-family: ButlerRegular;
+    font-family: Helvetica;
 }
 /*ABOUTEVENTS*/
 .image-overlay1{
@@ -133,12 +133,15 @@
     width:8vw;
 }
 .time{
-    font-size:1.6vw;
-    font-family: ButlerRegular;
+    font-size:1.68vw;
+    font-family: Helvetica;
+    text-align: center
 }
 .date{
-font-size:1vw;
-font-family: ButlerRegular;
+font-size:1.12vw;
+font-family: Helvetica;
+text-align: center
+
 }
 /*IMAGE2*/
 .image-overlay8{
@@ -165,6 +168,16 @@ font-family: ButlerRegular;
     position: absolute;
     top: 172vw;
     left:37%;  
+}
+.eclipse-logo{
+    width: 6vw;  
+    margin: auto;
+    position: absolute;
+    top: 4.5vh;
+    left: 45.5vw;
+}
+.eclipse-logo img{
+    width: 100%;
 }
 
 .frameboy{
@@ -277,16 +290,16 @@ font-family: ButlerRegular;
     font-family: ButlerBold;
 }
 .event1details{
-    width:18vw;
+    width:28vw;
     font-size: 1.2vw;
-    font-family: ButlerRegular;
+    font-family: Helvetica;
 }
 .button1{
     position: absolute;
-    top:14vw;
+    top:18vw;
     left:30%;
     width:40%;
-    font-size: 1vw;
+    font-size: 1.2rem;
     background-color: #00C894;
     border-radius: 1.2vw;
 }
@@ -303,20 +316,26 @@ font-family: ButlerRegular;
 .event2{
     font-size:2.5vw;
     font-family: ButlerBold;
+    position: relative;
+    right: 75px;
 }
 .event2details{
-    width:18vw;
+    width:28vw;
     font-size: 1.2vw;
-    font-family: ButlerRegular;
+    font-family: Helvetica;
+    position: relative;
+    right: 75px;
+    text-align: center;
 }
 .button2{
     position: absolute;
-    top:14vw;
-    left:30%; 
+    top:19vw;
     width:40%;
+    left: 45px;
     font-size: 1vw;
     background-color: #00C894;
     border-radius: 1.5vw;
+
 }
 /*EVENT3*/
 .image-overlay26{
@@ -333,13 +352,13 @@ font-family: ButlerRegular;
     font-family: ButlerBold;
 }
 .event3details{
-    width:18vw;
+    width:28vw;
     font-size: 1.2vw;
-    font-family: ButlerRegular;
+    font-family: Helvetica;
 }
 .button3{
     position: absolute;
-    top:17vw;
+    top:19vw;
     left:30%; 
     width:40%;
     font-size: 1vw;
