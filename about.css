@@ -169,6 +169,16 @@ text-align: center
     top: 172vw;
     left:37%;  
 }
+.eclipse-logo{
+    width: 6vw;  
+    margin: auto;
+    position: absolute;
+    top: 4.5vh;
+    left: 45.5vw;
+}
+.eclipse-logo img{
+    width: 100%;
+}
 
 .frameboy{
     position: absolute;
