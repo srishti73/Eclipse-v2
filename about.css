@@ -423,3 +423,44 @@ footer .svg-inline--fa:hover {
     top: 20vw;
   }
 }
+
+
+
+.button {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 1rem;
+  padding-top: 2%;
+  padding-bottom: 30px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 0rem;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  
+}
+
+.button-1, .button-2, .button-3 {
+  background-color: transparent;
+  border: 3px solid #00d7c3;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #00d7c3;
+}
+.button-1:hover, .button-2:hover, .button-3:hover {
+  background-color: #00d7c3;
+  color:white;
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+.button-1, .button-3{
+  margin-left: 7rem;
+}
+.button-2{
+  margin-left: 2rem;
+}
