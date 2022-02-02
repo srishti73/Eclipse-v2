@@ -1,4 +1,8 @@
 @import url(//db.onlinewebfonts.com/c/4f6fb2fa3c231278167b36e966718cbb?family=Uni+Sans+Heavy);
+@font-face {
+  font-family: 'akira-expanded';
+  src: url(./font/akira_expanded/Akira\ Expanded\ Demo.otf);
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -52,7 +56,7 @@
 }
 .about {
   font-size: 3vw;
-  font-family: ButlerBold;
+  font-family: 'akira-expanded';
 }
 .details {
   font-size: 1.2vw;
@@ -81,7 +85,7 @@
 }
 .EventDetails {
   font-size: 4vw;
-  font-family: ButlerBold;
+  font-family: 'akira-expanded';
   margin: 0;
 }
 /*EVENTDETAILS*/
@@ -289,7 +293,7 @@
 }
 .event1 {
   font-size: 2.5vw;
-  font-family: ButlerBold;
+  font-family: 'akira-expanded';
 }
 .event1details {
   width: 28vw;
@@ -317,7 +321,7 @@
 }
 .event2 {
   font-size: 2.5vw;
-  font-family: ButlerBold;
+  font-family: 'akira-expanded';
   /* position: relative;
   right: 75px; */
 }
@@ -350,7 +354,7 @@
 }
 .event3 {
   font-size: 2.5vw;
-  font-family: ButlerBold;
+  font-family: 'akira-expanded';
 }
 .event3details {
   width: 28vw;
