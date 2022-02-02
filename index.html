@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="about.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>Eclipse</title>
     
@@ -22,7 +23,30 @@
    <div class="container">
     <div  class="eclipse-logo"><img src="images/eclipselogo.png"></div>
 
-        
+       
+  <!-- Loader -->
+  <div class="loader-wrapper">
+    <div class="spinner-box">
+      <div class="blue-orbit leo">
+      </div>
+    
+      <div class="green-orbit leo">
+      </div>
+      
+      <div class="red-orbit leo">
+      </div>
+      
+      <div class="white-orbit w1 leo">
+      </div><div class="white-orbit w2 leo">
+      </div><div class="white-orbit w3 leo">
+      </div>
+    </div>
+    
+</div>
+
+  <!-- Loader -->
+
+
   <!----Heading---->
         <div class="image-overlay">
             <h1 class="ecli">ECLI</h1>
@@ -321,6 +345,15 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+      $(window).on('load', function(){
+        $(".loader-wrapper").addClass("display-none")
+        // $( ".loader-wrapper" ).fadeOut(500, function() {
+      // // fadeOut complete. Remove the loading div
+      // $( ".loader-wrapper" ).remove(); //makes page more lightweight 
+});
+
     </script>
 </body>
 </html>
