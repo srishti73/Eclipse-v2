@@ -284,6 +284,7 @@
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .event1 {
@@ -296,9 +297,8 @@
   font-family: Helvetica;
 }
 .button1 {
-  position: absolute;
   top: 18vw;
-  left: 30%;
+  margin-left: none;
   width: 40%;
   font-size: 1vw;
   background-color: #00c894;
@@ -308,31 +308,31 @@
 .image-overlay25 {
   position: absolute;
   top: 206vw;
-  left: 32%;
+  left: 21%;
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .event2 {
   font-size: 2.5vw;
   font-family: ButlerBold;
-  position: relative;
-  right: 75px;
+  /* position: relative;
+  right: 75px; */
 }
 .event2details {
   width: 28vw;
   font-size: 1.2vw;
   font-family: Helvetica;
-  position: relative;
-  right: 75px;
-  text-align: center;
+  /* position: relative;
+  right: 75px; */
 }
 .button2 {
   position: absolute;
   top: 19vw;
   width: 40%;
-  left: 15%;
+  /* left: 15%; */
   font-size: 1vw;
   background-color: #00c894;
   border-radius: 1.5vw;
@@ -345,6 +345,7 @@
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .event3 {
@@ -359,7 +360,7 @@
 .button3 {
   position: absolute;
   top: 19vw;
-  left: 30%;
+  /* left: 30%; */
   width: 40%;
   font-size: 1vw;
   background-color: #00c894;
@@ -424,8 +425,6 @@ footer .svg-inline--fa:hover {
   }
 }
 
-
-
 .button {
   justify-content: center;
   align-items: center;
@@ -441,26 +440,30 @@ footer .svg-inline--fa:hover {
   margin-bottom: 30px;
   cursor: pointer;
   display: inline-block;
-  
 }
 
-.button-1, .button-2, .button-3 {
+.button-1,
+.button-2,
+.button-3 {
   background-color: transparent;
   border: 3px solid #00d7c3;
   border-radius: 50px;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
   color: #00d7c3;
 }
-.button-1:hover, .button-2:hover, .button-3:hover {
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
   background-color: #00d7c3;
-  color:white;
+  color: white;
   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
   border: 3px solid #00d7c3;
 }
-.button-1, .button-3{
+/* .button-1,
+.button-3 {
   margin-left: 7rem;
 }
-.button-2{
+.button-2 {
   margin-left: 2rem;
-}
+} */
