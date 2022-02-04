@@ -363,6 +363,7 @@
   font-size: 1.2vw;
   font-family: Helvetica;
 }
+
 .button3 {
   position: absolute;
   top: 19vw;
@@ -372,6 +373,7 @@
   background-color: #00c894;
   border-radius: 1.5vw;
 }
+
 /*Time2*/
 .image-overlay27 {
   position: absolute;
@@ -425,7 +427,7 @@ footer .svg-inline--fa:hover {
 
 .button {
   position: absolute;
-  
+  top:18vw;
   justify-content: center;
   align-items: center;
   width: 14vw;
@@ -436,9 +438,13 @@ footer .svg-inline--fa:hover {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-weight: 600;
-  margin-top: 0.5vw;
+  margin-top: 2vw;
   cursor: pointer;
   display: inline-block;
+  font-size:1.6vw;
+}
+.button-1{
+  margin-top:0px ;
 }
 
 .button-1,
@@ -471,6 +477,92 @@ footer .svg-inline--fa:hover {
   display: none !important;
 }
 /* KEYFRAMES */
+
+
+.image-overlay31{
+  position: absolute;
+  top:300vw;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+.row{
+  margin:0px;
+  margin-top:2%;
+}
+.eventheading, .titleheading, .powerheading, .apparelheading,
+ .mediaheading, .certificateheading, .associateheading,
+.platformheading{
+  color:white;
+  font-family: "akira-expanded";
+  font-size:2vw;
+}
+
+.titleheading, .powerheading, .associateheading
+{
+  margin-top:3%;
+}
+.growthgear, .henryharvin{
+  width:50%;
+}
+.polygon, .devfolio{
+  margin-top:-5%;
+}
+
+
+.polygon{
+  width:55%;
+}
+.devfolio{
+  width:30%;
+}
+ .tezos, .filecoin, .celo, .redbull, .hackclub{
+  width:30%;
+}
+.d2c{
+  width:20%;
+}
+.d2c, .tezos, .filecoin, .celo, .redbull, .hackclub
+{
+  margin-top:2%;
+}
+
+ .easyshiksha, .interviewbuddy{
+   margin-top:10%;
+  width:50%;
+}
+.jetbrains, .onepassword{
+  margin-top:10%;
+  width:30%;
+}
+.platformheading, .apparelheading, .certificateheading,
+.mediaheading{
+  margin-top:5%;
+}
+.streamland{
+  width:25%;
+}
+.kappsons{
+  width:50%;
+}
+.wanderlooms{
+  width:23%;
+}
+.givememycertificate{
+  width:60%;
+  margin-top:5.5%;
+}
+.noticebard{
+  position:absolute;
+  width:35%;
+  left:40%;
+  top:15%;
+}
+.mediaheading{
+  position: absolute;
+  left:30%;
+}
+
 
 @keyframes spin {
   from {
