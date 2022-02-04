@@ -1,4 +1,8 @@
 @import url(//db.onlinewebfonts.com/c/4f6fb2fa3c231278167b36e966718cbb?family=Uni+Sans+Heavy);
+@font-face {
+  font-family: 'akira-expanded';
+  src: url(./font/akira_expanded/Akira\ Expanded\ Demo.otf);
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -52,7 +56,7 @@
 }
 .about {
   font-size: 3vw;
-  font-family: ButlerBold;
+  font-family: 'akira-expanded';
 }
 .details {
   font-size: 1.2vw;
@@ -81,7 +85,7 @@
 }
 .EventDetails {
   font-size: 4vw;
-  font-family: ButlerBold;
+  font-family: 'akira-expanded';
   margin: 0;
 }
 /*EVENTDETAILS*/
@@ -285,44 +289,60 @@
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .event1 {
   font-size: 2.5vw;
-  font-family: ButlerBold;
+  font-family: 'akira-expanded';
 }
 .event1details {
   width: 28vw;
   font-size: 1.2vw;
   font-family: Helvetica;
 }
-
+.button1 {
+  top: 18vw;
+  margin-left: none;
+  width: 40%;
+  font-size: 1vw;
+  background-color: #00c894;
+  border-radius: 1.5vw;
+}
 /*EVENT2*/
 .image-overlay25 {
   
   position: absolute;
   top: 206vw;
-  left: 32%;
+  left: 21%;
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .event2 {
   font-size: 2.5vw;
-  font-family: ButlerBold;
-  position: relative;
-  right: 75px;
+  font-family: 'akira-expanded';
+  /* position: relative;
+  right: 75px; */
 }
 .event2details {
   width: 28vw;
   font-size: 1.2vw;
   font-family: Helvetica;
-  position: relative;
-  right: 75px;
-  text-align: center;
+  /* position: relative;
+  right: 75px; */
 }
-
+.button2 {
+  position: absolute;
+  top: 19vw;
+  width: 40%;
+  /* left: 15%; */
+  font-size: 1vw;
+  background-color: #00c894;
+  border-radius: 1.5vw;
+}
 /*EVENT3*/
 .image-overlay26 {
   position: absolute;
@@ -331,18 +351,27 @@
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .event3 {
   font-size: 2.5vw;
-  font-family: ButlerBold;
+  font-family: 'akira-expanded';
 }
 .event3details {
   width: 28vw;
   font-size: 1.2vw;
   font-family: Helvetica;
 }
-
+.button3 {
+  position: absolute;
+  top: 19vw;
+  /* left: 30%; */
+  width: 40%;
+  font-size: 1vw;
+  background-color: #00c894;
+  border-radius: 1.5vw;
+}
 /*Time2*/
 .image-overlay27 {
   position: absolute;
@@ -394,8 +423,6 @@ footer .svg-inline--fa:hover {
 
 
 
-
-
 .button {
   position: absolute;
   
@@ -412,134 +439,367 @@ footer .svg-inline--fa:hover {
   margin-top: 0.5vw;
   cursor: pointer;
   display: inline-block;
-  font-size: 1.6vw;;
 }
 
-.button-1, .button-2, .button-3 {
+.button-1,
+.button-2,
+.button-3 {
   background-color: transparent;
   border: 0.15vw solid #00d7c3;
   border-radius: 50px;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
   color: #00d7c3;
 }
-.button-1:hover, .button-2:hover, .button-3:hover {
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
   background-color: #00d7c3;
-  color:white;
+  color: white;
   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
   border: 1px solid #00d7c3;
 }
-.button-1, .button-3{
-  left:25%;
-  
+/* .button-1,
+.button-3 {
+  margin-left: 7rem;
+}
+.button-2 {
+  margin-left: 2rem;
+} */
+/* Loader */
+.display-none{
+  display: none !important;
+}
+/* KEYFRAMES */
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spin3D {
+  from {
+    transform: rotate3d(.5,.5,.5, 360deg);
+  }
+  to{
+    transform: rotate3d(0deg);
+  }
+}
+
+@keyframes configure-clockwise {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes configure-xclockwise {
+  0% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(-135deg);
+  }
+  75% {
+    transform: rotate(-225deg);
+  }
+  100% {
+    transform: rotate(-315deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: .25;
+    transform: scale(.75);
+  }
+}
+
+/* GRID STYLING */
+
+* {
+  box-sizing: border-box;
 }
 
 
-.button-1{
-  top:18vw;
-}
-.button-2, .button-3{
-  top:20vw;
-}
 
-
-
-
-
-
-
-.image-overlay31{
-  position: absolute;
-  top:300vw;
- width:100%;
+.spinner-box {
+  width: 300px;
+  height: 300px;
+  display: flex;
   justify-content: center;
-  text-align:center;
-  align-content:center;
-  
-}
-.eventheading, .titleheading, .powerheading,
- .associateheading, .platformheading,
- .apparelheading, .certificateheading,
- .mediaheading{
-  font-family: ButterBold;
-  color:white;
-  font-size: 2.5vw;
-  font-weight:700;
-  
-}
-.row{
-  margin:0px;
+  align-items: center;
+  background-color: transparent;
+  margin: auto;
+  margin-top: 20vh !important;
 }
 
-.growthgear, .henryharvin{
-  width:50%;
-}
-.titleheading{
-  margin-top:2%;
-}
-.polygon{
-  width:70%
-}
+/* SPINNING CIRCLE */
 
-.polygon, .devfolio{
-  margin-top:-5%;
-}
-.devfolio{
-  width:35%;
-}
-.powerheading{
-  margin-top:-1%;
-}
- .tezos, .filecoin, .celo, .redbull, .hackclub{
- margin-top:25%;
-  width:60%;
-}
-.d2c{
-  margin-top:25%;
-  width:40%;
-}
-.associateheading{
-  margin-top:5%
-}
-
-.jetbrains, .interviewbuddy, .easyshiksha{
-  width:35%;
-}
-.onepassword{
-  width:30%;
-}
-
-.platformheading{
-  margin-top:6.5%;
-}
-.streamland{
-  width:30%;
-  margin-top:1%;
-}
-.apparelheading{
-  margin-top:5.5%;
-}
-.kappsons{
-  width:50%;
-}
-.wanderlooms{
-  width:30%;
-}
-.certificateheading{
-  margin-top:0%;
-}
-.givememycertificate{
-  width:25%;
-  margin-top:2%;
-}
-.mediaheading{
+.leo-border-1 {
   position: absolute;
-  left:41%;
-  margin-top:4%;
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(63,249,220);
+  background: linear-gradient(0deg, rgba(63,249,220,0.1) 33%, rgba(63,249,220,1) 100%);
+  animation: spin3D 1.8s linear 0s infinite;
 }
-.noticebard{
-  width:15%;
- margin-top:26%;
- position: absolute;
- left:42%; 
+
+.leo-core-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #37474faa;
+  border-radius: 50%;
+}
+
+.leo-border-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(251, 91, 83);
+  background: linear-gradient(0deg, rgba(251, 91, 83, 0.1) 33%, rgba(251, 91, 83, 1) 100%);
+  animation: spin3D 2.2s linear 0s infinite;
+}
+
+.leo-core-2 {
+  width: 100%;
+  height: 100%;
+  background-color: #1d2630aa;
+  border-radius: 50%;
+}
+
+/* ALTERNATING ORBITS */
+
+.circle-border {
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgb(63,249,220);
+  background: linear-gradient(0deg, rgba(63,249,220,0.1) 33%, rgba(63,249,220,1) 100%);
+  animation: spin .8s linear 0s infinite;
+}
+
+.circle-core {
+  width: 100%;
+  height: 100%;
+  background-color: #1d2630;
+  border-radius: 50%;
+}
+
+/* X-ROTATING BOXES */
+
+.configure-border-1 {
+  width: 115px;
+  height: 115px;
+  padding: 3px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fb5b53;
+  animation: configure-clockwise 3s ease-in-out 0s infinite alternate;
+}
+
+.configure-border-2 {
+  width: 115px;
+  height: 115px;
+  padding: 3px;
+  left: -115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(63,249,220);
+  transform: rotate(45deg);
+  animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;
+}
+
+.configure-core {
+  width: 100%;
+  height: 100%;
+  background-color: #1d2630;
+}
+
+/* PULSE BUBBLES */
+
+.pulse-container {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pulse-bubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+}
+
+.pulse-bubble-1 {
+    animation: pulse .4s ease 0s infinite alternate;
+}
+.pulse-bubble-2 {
+    animation: pulse .4s ease .2s infinite alternate;
+}
+.pulse-bubble-3 {
+    animation: pulse .4s ease .4s infinite alternate;
+}
+
+/* SOLAR SYSTEM */
+
+.solar-system {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #fafbfC;
+	border-radius: 50%;
+} 
+
+.earth-orbit {
+	width: 165px;
+	height: 165px;
+  -webkit-animation: spin 12s linear 0s infinite;
+}
+
+.venus-orbit {
+	width: 120px;
+	height: 120px;
+  -webkit-animation: spin 7.4s linear 0s infinite;
+}
+
+.mercury-orbit {
+	width: 90px;
+	height: 90px;
+  -webkit-animation: spin 3s linear 0s infinite;
+}
+
+.planet {
+	position: absolute;
+	top: -5px;
+  width: 10px;
+  height: 10px;
+	border-radius: 50%;
+  background-color: #3ff9dc;
+}
+
+.sun {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #ffab91;
+}
+
+.leo {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.blue-orbit {
+	width: 165px;
+	height: 165px;
+  border: 1px solid #91daffa5;
+  -webkit-animation: spin3D 3s linear .2s infinite;
+}
+
+.green-orbit {
+	width: 120px;
+	height: 120px;
+  border: 1px solid #91ffbfa5;
+  -webkit-animation: spin3D 2s linear 0s infinite;
+}
+
+.red-orbit {
+	width: 90px;
+	height: 90px;
+  border: 1px solid #ffca91a5;
+  -webkit-animation: spin3D 1s linear 0s infinite;
+}
+
+.white-orbit {
+	width: 60px;
+	height: 60px;
+  border: 2px solid #ffffff;
+  -webkit-animation: spin3D 10s linear 0s infinite;
+}
+
+.w1 {
+  transform: rotate3D(1, 1, 1, 90deg);
+}
+
+.w2 {
+  transform: rotate3D(1, 2, .5, 90deg);
+}
+
+.w3 {
+  transform: rotate3D(.5, 1, 2, 90deg);
+}
+
+.three-quarter-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #fb5b53;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: spin .5s linear 0s infinite;
+}
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  overflow: hidden;
 }

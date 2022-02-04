@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="about.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>Eclipse</title>
     
@@ -22,7 +23,30 @@
    <div class="container1">
     <div  class="eclipse-logo"><img src="images/eclipselogo.png"></div>
 
-        
+       
+  <!-- Loader -->
+  <div class="loader-wrapper">
+    <div class="spinner-box">
+      <div class="blue-orbit leo">
+      </div>
+    
+      <div class="green-orbit leo">
+      </div>
+      
+      <div class="red-orbit leo">
+      </div>
+      
+      <div class="white-orbit w1 leo">
+      </div><div class="white-orbit w2 leo">
+      </div><div class="white-orbit w3 leo">
+      </div>
+    </div>
+    
+</div>
+
+  <!-- Loader -->
+
+
   <!----Heading---->
         <div class="image-overlay">
             <h1 class="ecli">ECLI</h1>
@@ -41,7 +65,7 @@
   
   <!----about---->
         <div data-aos="fade-right" class="image-overlay1">
-          <h1 class="about">About Event</h1>
+          <h1 class="about">About</h1>
           <p class="details">Thapar ACM Student Chapter presents to you Eclipse, a 3-day long flagship event to be held from 25th to 27th February. It incorporates three headlining events - Flamingo, Enigma, and Hacklipse. All events are designed to cater to the art of thinking and implementing by disintegrating the problem into smaller chunks and then using your logic-based creativity to solve it from different angles.</p>
         </div>
  <!----about---->
@@ -443,6 +467,14 @@
     <script>
       AOS.init();
     </script>
+    <script>
+      $(window).on('load', function(){
+        $(".loader-wrapper").addClass("display-none")
+        // $( ".loader-wrapper" ).fadeOut(500, function() {
+      // // fadeOut complete. Remove the loading div
+      // $( ".loader-wrapper" ).remove(); //makes page more lightweight 
+});
 
+    </script>
 </body>
 </html>
