@@ -278,6 +278,7 @@
 }
 /*EVENT1*/
 .image-overlay24 {
+
   position: absolute;
   top: 149vw;
   left: 60%;
@@ -295,17 +296,10 @@
   font-size: 1.2vw;
   font-family: Helvetica;
 }
-.button1 {
-  position: absolute;
-  top: 18vw;
-  left: 30%;
-  width: 40%;
-  font-size: 1vw;
-  background-color: #00c894;
-  border-radius: 1.5vw;
-}
+
 /*EVENT2*/
 .image-overlay25 {
+  
   position: absolute;
   top: 206vw;
   left: 32%;
@@ -328,15 +322,7 @@
   right: 75px;
   text-align: center;
 }
-.button2 {
-  position: absolute;
-  top: 19vw;
-  width: 40%;
-  left: 15%;
-  font-size: 1vw;
-  background-color: #00c894;
-  border-radius: 1.5vw;
-}
+
 /*EVENT3*/
 .image-overlay26 {
   position: absolute;
@@ -356,15 +342,7 @@
   font-size: 1.2vw;
   font-family: Helvetica;
 }
-.button3 {
-  position: absolute;
-  top: 19vw;
-  left: 30%;
-  width: 40%;
-  font-size: 1vw;
-  background-color: #00c894;
-  border-radius: 1.5vw;
-}
+
 /*Time2*/
 .image-overlay27 {
   position: absolute;
@@ -414,39 +392,32 @@ footer .svg-inline--fa:hover {
   transform: translateY(-10px);
 }
 
-@media only screen and (max-width: 768px) {
-  .button2 {
-    top: 20vw;
-    left: -2.5rem;
-  }
-  .button3 {
-    top: 20vw;
-  }
-}
+
 
 
 
 .button {
+  position: absolute;
+  
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 1rem;
+  width: 14vw;
+  height: 1vw;;
   padding-top: 2%;
-  padding-bottom: 30px;
+  padding-bottom: 2.9vw;
   text-align: center;
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-weight: 600;
-  margin-left: 0rem;
-  margin-bottom: 30px;
+  margin-top: 0.5vw;
   cursor: pointer;
   display: inline-block;
-  
+  font-size: 1.6vw;;
 }
 
 .button-1, .button-2, .button-3 {
   background-color: transparent;
-  border: 3px solid #00d7c3;
+  border: 0.15vw solid #00d7c3;
   border-radius: 50px;
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
@@ -456,11 +427,119 @@ footer .svg-inline--fa:hover {
   background-color: #00d7c3;
   color:white;
   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-  border: 3px solid #00d7c3;
+  border: 1px solid #00d7c3;
 }
 .button-1, .button-3{
-  margin-left: 7rem;
+  left:25%;
+  
 }
-.button-2{
-  margin-left: 2rem;
+
+
+.button-1{
+  top:18vw;
+}
+.button-2, .button-3{
+  top:20vw;
+}
+
+
+
+
+
+
+
+.image-overlay31{
+  position: absolute;
+  top:300vw;
+ width:100%;
+  justify-content: center;
+  text-align:center;
+  align-content:center;
+  
+}
+.eventheading, .titleheading, .powerheading,
+ .associateheading, .platformheading,
+ .apparelheading, .certificateheading,
+ .mediaheading{
+  font-family: ButterBold;
+  color:white;
+  font-size: 2.5vw;
+  font-weight:700;
+  
+}
+.row{
+  margin:0px;
+}
+
+.growthgear, .henryharvin{
+  width:50%;
+}
+.titleheading{
+  margin-top:2%;
+}
+.polygon{
+  width:70%
+}
+
+.polygon, .devfolio{
+  margin-top:-5%;
+}
+.devfolio{
+  width:35%;
+}
+.powerheading{
+  margin-top:-1%;
+}
+ .tezos, .filecoin, .celo, .redbull, .hackclub{
+ margin-top:25%;
+  width:60%;
+}
+.d2c{
+  margin-top:25%;
+  width:40%;
+}
+.associateheading{
+  margin-top:5%
+}
+
+.jetbrains, .interviewbuddy, .easyshiksha{
+  width:35%;
+}
+.onepassword{
+  width:30%;
+}
+
+.platformheading{
+  margin-top:6.5%;
+}
+.streamland{
+  width:30%;
+  margin-top:1%;
+}
+.apparelheading{
+  margin-top:5.5%;
+}
+.kappsons{
+  width:50%;
+}
+.wanderlooms{
+  width:30%;
+}
+.certificateheading{
+  margin-top:0%;
+}
+.givememycertificate{
+  width:25%;
+  margin-top:2%;
+}
+.mediaheading{
+  position: absolute;
+  left:41%;
+  margin-top:4%;
+}
+.noticebard{
+  width:15%;
+ margin-top:26%;
+ position: absolute;
+ left:42%; 
 }
